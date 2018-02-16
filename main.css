@@ -1,11 +1,19 @@
-p {
+ p {
    font-family: 'Montserrat', sans-serif;
    color: #91E6B6;
-   font-size: 100px;
+   font-size: 50px;
+   
   }
 .about {
          font-family: 'Montserrat', sans-serif;
          color: #91E6B6;
          backround-color: #4a4a4a;
          text-align: center;
-       }
+         font-size: 80px;
+        }
+logo  {
+        align: center;
+        height: 5%;
+        width: auto;
+      }
+      
