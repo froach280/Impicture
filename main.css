@@ -3,3 +3,9 @@ p {
    color: #91E6B6;
    font-size: 100px;
   }
+.about {
+         font-family: 'Montserrat', sans-serif;
+         color: #91E6B6;
+         backround-color: #4a4a4a;
+         text-align: center;
+       }
