@@ -17,7 +17,7 @@ h2 {
 h3 {
          font-family: 'Montserrat', sans-serif;
          color: #91E6B6;
-         backround: #4a4a4a;
+         border: 2px solid #91E6B6;
          text-align: center;
          font-size: 60px;
         }
@@ -33,4 +33,6 @@ h3 {
         padding: 5px;
         border: 3px solid #91E6B6;
        }
-        
+h3:hover {
+ color:#4a4a4a
+}
