@@ -4,6 +4,7 @@
    font-size: 50px;
    grid-column: 1 / span 10;
    overflow: scroll;
+   margin: 0 20px;
 }
 #discript {
    grid-row: 4 / span 4;
@@ -71,13 +72,14 @@ a {
 }
 body {
   background:hsla(183, 0%, 90%, 0.14) ;
-  margin: 0px 50px;
+  margin: 0px 0px;
 }
 .image{
   border: 2px solid #91E6B6;
 }
 .album {
   grid-column: 1 / span 10;
+  margin: 0 20px;
 }
 #work {
   font-family:'Montserrat', sans-serif;
