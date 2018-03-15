@@ -80,6 +80,9 @@ div.gallery img {
 div.desc {
     padding: 15px;
     text-align: center;
+    color:#9b9900;
+    font-family: 'Montserrat', sans-serif;
+}
 }
 
 * {
