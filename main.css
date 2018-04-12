@@ -30,6 +30,7 @@
   grid-column: 1 / span 10;
   text-align: center;
   background-color: #062e4f;
+  margin: 0;
 }
 #aboutnav {
   font-family: 'Montserrat', sans-serif;
