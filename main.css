@@ -6,6 +6,7 @@
 
 .header {
   grid-row: 1 / span 1;
+  grid-column: 1 / span 10;
   background-image: url("saddle2.jpg");
   height: 50%;
   background-position: center;
