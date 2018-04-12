@@ -9,6 +9,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  margin: 0;
 }
 
 .header-text {
@@ -19,6 +20,7 @@
   transform: translate(-50%, -50%);
   color: #4a9b83;
   font-family: 'Montserrat', sans-serif;
+  padding: 10px;
 }
 
 .nav {
