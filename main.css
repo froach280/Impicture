@@ -1,12 +1,9 @@
  .container {
   display: grid;
-  grid-template-columns: repeat (10, 10%);
-  grid-template-rows: repeat (10, 100px);
   }
 
 .header {
-  grid-row: 1 / span 1;
-  grid-column: 1 / span 10;
+  
   background-image: url("saddle2.jpg");
   height: 50%;
   background-position: center;
@@ -17,7 +14,7 @@
 
 .header-text {
   text-align: center;
-  position: absolute;
+  position: relative;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -28,7 +25,6 @@
 .nav {
   text-align: center;
   font-size: auto;
-  grid-row: 2 / span 1;
   list-style-type: none;
   grid-column: 1 / span 10;
   text-align: center;
@@ -67,17 +63,16 @@ p {
    color: #041f35;
    font-size: auto;
    margin: 10px 20px;
+   grid-row: 4 / span 1;
 }
 .contact {
-  grid-row: 10 / span 1;
+  
   font-family: 'Montserrat', sans-serif;
   color: #041f35;
   font-size: auto;
   margin: 0 20px;
 }
-.header {
-  max-width: 100%;
-       }
+
 a {
   text-decoration: none;
   color: #4a9b83;
@@ -105,7 +100,7 @@ div.desc {
     color:#9b9900;
     font-family: 'Montserrat', sans-serif;
 }
-}
+
 
 * {
     box-sizing: border-box;
