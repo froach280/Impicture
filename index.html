@@ -25,63 +25,32 @@
    </ul>
   </div>
  <div id="about">
-   <p>Impicture is a group of students looking for expireince in their fields</p>
+   <p>Impicture is a group of students looking for expireince in their fields. Impicture's staff includes photographers, videographers, and producers.</p>
    </div>
- <div id="portfolio">
-    <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="Sissyfinal .jpg">
-      <img src="Sissyfinal .jpg" alt="girl looking to the side" width="300" height="200">
-    </a>
-    <div class="desc">Example of a portfolio photo.</div>
-  </div>
-</div>
-	 
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="saddle.jpg">
-      <img src="saddle.jpg" alt="saddle" width="300" height="200">
-    </a>
-    <div class="desc">Example of a product photo.</div>
-  </div>
-</div>
-	 
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="cup.jpg">
-      <img src="cup.jpg" alt="mug on counter" width="300" height="200">
-    </a>
-    <div class="desc">Example of a product photo.</div>
-  </div>
+<div class="slides" id="portfolio">
+  <img class="slide" src="building.jpg" style="width:100%">
+  <img class="slide" src="product.jpg" style="width:100%">
+  <img class="slide" src="profile.jpg" style="width:100%">
+  <img class="slide" src="you.jpg" style="width:100%">
 </div>
 
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="evergreen.jpg">
-      <img src="evergreen.jpg" alt="girl and horse in the distance" width="300" height="200">
-    </a>
-    <div class="desc">Example of a landscape photo.</div>
-  </div>
-</div>
-	
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="field.jpg">
-      <img src="field.jpg" alt="girl and horse in a field" width="300" height="200">
-    </a>
-    <div class="desc">Example of a landscape photo.</div>
-  </div>
-</div>
-	 
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="arena.jpg">
-      <img src="arena.jpg" alt="Girl rideing horse" width="300" height="200">
-    </a>
-    <div class="desc">Example of an action photo.</div>
-  </div>
-</div>
-   </div>
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("slide");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 4000); // Change image every 4 seconds
+}
+</script>
+
    <div id="contact">
      <p>example@email.domain</p>
    </div>
