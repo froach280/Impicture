@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel='stylesheet' type='text/css' href='stylesheet'>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel='stylesheet' type='text/css' href='style.css'>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="icon" href="favicon(1).ico">
+    <title>Impicture</title>
+</head>
+ <div class="container">
+  <div class="header">
+    <div class="header-text">
+      <h1 style="font-size:50px">Impicture</h1>
+      <h2>Photography and Videography</h2>
+    </div>
+  </div>
+ <div>
+   <ul class="nav">
+     <li id="aboutnav"><a href="#about">About</a></li>
+     <li id="portfolionav"><a href="#portfolio">Portfolio</a></li>
+     <li id="contactnav"><a href="#contact">Contact</a></li>
+   </ul>
+  </div>
+  <div class="row">
+  <div class="column">
+    <img src="saddle.jpg" alt="Example of a Product Photo" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="cup.jpg" alt="Example of a Product Photo" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="evergreen.jpg" alt="Example of a Landscape Photo" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="arena.jpg" alt="Example of an Action Photo" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="field.jpg" alt="Example of a Landscape Photo" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="Sissyfinal.jpg" alt="Example of a Portrait Photo" style="width:100%" onclick="myFunction(this);">
+  </div>
+</div>
+
+<div class="expand">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <img id="expandedImg" style="width:100%">
+  <div id="imgtext"></div>
+</div>
+
+<script>
+function myFunction(imgs) {
+    var expandImg = document.getElementById("expandedImg");
+    var imgText = document.getElementById("imgtext");
+    expandImg.src = imgs.src;
+    imgText.innerHTML = imgs.alt;
+    expandImg.parentElement.style.display = "block";
+}
+</script>
+
+</body>
+</html>
