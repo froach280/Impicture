@@ -63,8 +63,8 @@
 p {
    font-family: 'Montserrat', sans-serif;
    color: #041f35;
-   font-size: auto;
-   margin: 10px 20px;
+   font-size: 30;
+   margin: 30px 20px;
    grid-row: 4 / span 1;
 }
 .contact {
