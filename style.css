@@ -110,7 +110,8 @@ a:hover {
     bottom: 15px;
     left: 15px;
     color: #9b9900;
-    font-size: 20px;
+    font-size: 40px;
+    background-color: rgba(74, 155, 131, 0.3);
     font-family: 'Montserrat', sans-serif;
 }
 .closebtn {
