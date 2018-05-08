@@ -125,3 +125,8 @@ div.desc {
     .responsive {
         width: 100%;
     }
+.cards {
+  column-count: 2;
+  column-gap: 3px;
+  overflow: scroll;
+}
