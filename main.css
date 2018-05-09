@@ -139,3 +139,10 @@ div.desc {
    margin: 30px 0px;
    text-align: center;
   }
+ .logo {
+  justify-content: center;
+  width: 30%;
+  height: auto;
+  Margin: 5px 0;
+ }
+  
